@@ -1,0 +1,277 @@
+:root {
+    --solimed: #52ceaa;
+    --solifood: #fabe12;
+    --soliwaste: #1da9c4;
+    --asiatodo: #ed2023;
+    --optisort: #0077c3;
+    --pyron: #373536;
+    --sortimex: #ff1a19;
+    --blanco: #fff;
+}
+
+html,
+body {
+    background-color: var(--blanco);
+}
+
+.linea {
+    border-bottom: 1px solid black;
+}
+
+
+/*Inicio de sesion solimed*/
+
+.bg-solimed {
+    background-image: url('../../assets/img/banner-solimed.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-solimed::before {
+    /*  position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .2; */
+}
+
+.btn-solimed {
+    background-color: var(--solimed);
+    color: #fff;
+    transition: all .6s ease;
+    font-weight: bold;
+}
+
+.btn-solimed:hover {
+    background-color: #fff;
+    color: var(--solimed);
+    border: 1px solid var(--solimed);
+    font-weight: bold;
+}
+
+.logo {
+    width: 350px;
+}
+
+.p-registro {
+    margin-bottom: 0;
+}
+
+
+/*Menu para dispositivos moviles*/
+
+.bg-menu {
+    background-color: #fff;
+}
+
+.modulos,
+.ventas,
+.pagos,
+.etapas-venta,
+.productos,
+.empresas,
+.documentos-empresa,
+.clientes,
+.compras,
+.proveedores,
+.cotizaciones {
+    overflow-x: auto !important;
+    display: block;
+    background-color: transparent;
+}
+
+@media (min-width:2150px) {
+    .productos {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+@media (min-width:1450px) {
+    .proveedores {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+@media (min-width:1450px) {
+    .cotizaciones {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+@media (min-width:1570px) {
+    .compras {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+@media (min-width:1080px) {
+    .clientes {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+@media (min-width:1480px) {
+    .empresas {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+@media (min-width:560px) {
+    .documentos-empresa {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+@media (min-width:1240px) {
+    .modulos {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+@media (min-width:670px) {
+    .etapas-venta {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+@media (min-width:750px) {
+    .ventas {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+@media (min-width:540px) {
+    .pagos {
+        overflow-x: hidden !important;
+        display: inline-table;
+    }
+}
+
+.sl-menu-sub .nav-link:hover,
+.sl-menu-sub .nav-link:focus {
+    color: white !important;
+    background-color: #2b333e !important;
+}
+
+.choose-file-button {
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(33, 140, 230, 0.6);
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.choose-file-button {
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(33, 140, 230, 0.6);
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.file-message {
+    font-size: small;
+    font-weight: 300;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.aling-center {
+    align-items: center !important;
+}
+
+.switch {
+    position: relative !important;
+    display: inline-block !important;
+    width: 60px !important;
+    height: 34px !important;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #1cac2f;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
