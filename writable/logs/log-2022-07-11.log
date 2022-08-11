@@ -1,0 +1,28 @@
+CRITICAL - 2022-07-11 11:15:29 --> Undefined offset: 0
+#0 /var/www/html/solimaq/app/Controllers/Notificaciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Notificaciones->obtener_notificaciones()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-11 12:44:30 --> Undefined offset: 0
+#0 /var/www/html/solimaq/app/Controllers/Notificaciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Notificaciones->obtener_notificaciones()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-11 12:45:51 --> Trying to access array offset on value of type null
+#0 /var/www/html/solimaq/app/Controllers/Cotizaciones.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Cotizaciones->index()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-11 17:25:01 --> Undefined offset: 0
+#0 /var/www/html/solimaq/app/Controllers/Notificaciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Notificaciones->obtener_notificaciones()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

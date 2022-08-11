@@ -1,0 +1,49 @@
+CRITICAL - 2022-07-28 13:04:01 --> Undefined offset: 0
+#0 /var/www/html/solimaq/app/Controllers/Notificaciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Notificaciones->obtener_notificaciones()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 13:19:01 --> Undefined offset: 0
+#0 /var/www/html/solimaq/app/Controllers/Notificaciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Notificaciones->obtener_notificaciones()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 14:26:27 --> Undefined offset: 0
+#0 /var/www/html/solimaq/app/Controllers/Notificaciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Notificaciones->obtener_notificaciones()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 14:27:16 --> Undefined offset: 0
+#0 /var/www/html/solimaq/app/Controllers/Notificaciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Notificaciones->obtener_notificaciones()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 16:13:37 --> Undefined offset: 0
+#0 /var/www/html/solimaq/app/Controllers/Notificaciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Notificaciones->obtener_notificaciones()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 18:12:57 --> Undefined offset: 0
+#0 /var/www/html/solimaq/app/Controllers/Notificaciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Notificaciones->obtener_notificaciones()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-28 18:15:23 --> Undefined offset: 0
+#0 /var/www/html/solimaq/app/Controllers/Notificaciones.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Notificaciones->obtener_notificaciones()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

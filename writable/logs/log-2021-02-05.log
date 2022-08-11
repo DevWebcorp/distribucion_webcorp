@@ -1,0 +1,11 @@
+CRITICAL - 2021-02-05 14:34:56 --> Undefined variable: menu
+#0 /Library/WebServer/Documents/solimaq/app/Views/left_panel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 16, Array)
+#1 /Library/WebServer/Documents/solimaq/system/View/View.php(220): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/solimaq/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/solimaq/system/Common.php(1217): CodeIgniter\View\View->render('left_panel', Array, true)
+#4 /Library/WebServer/Documents/solimaq/app/Controllers/Register.php(21): view('left_panel')
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\Register->index()
+#6 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -23,7 +23,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost/solimaq/public/index.php/';
+	public $baseURL = 'http://localhost/distribucion_webcorp/public/index.php/';
 	/**
 	 * --------------------------------------------------------------------------
 	 * Index File

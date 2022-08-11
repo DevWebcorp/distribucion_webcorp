@@ -1,0 +1,51 @@
+CRITICAL - 2022-08-10 12:20:04 --> Undefined variable: model
+#0 /var/www/html/solimaq/app/Controllers/Proveedores.php(332): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Delete()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-10 12:20:38 --> Undefined variable: id_provedor
+#0 /var/www/html/solimaq/app/Controllers/Proveedores.php(332): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Delete()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-10 15:25:22 --> Could not move file phpnoMo4V to /var/www/html/solimaq/writable/../public/images/ ()
+#0 /var/www/html/solimaq/system/HTTP/Files/UploadedFile.php(157): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+#1 /var/www/html/solimaq/app/Controllers/Products.php(310): CodeIgniter\HTTP\Files\UploadedFile->move()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Products->creatProducto()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-10 16:10:12 --> mysqli_sql_exception: Column 'deleted_at' in where clause is ambiguous in /var/www/html/solimaq/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /var/www/html/solimaq/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/html/solimaq/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/solimaq/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/solimaq/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/solimaq/system/BaseModel.php(583): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/solimaq/app/Models/Product.php(84): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/solimaq/app/Controllers/Products.php(293): App\Models\Product->getProductos()
+#8 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Products->get_productos()
+#9 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-10 16:10:12 --> Column 'deleted_at' in where clause is ambiguous
+#0 /var/www/html/solimaq/system/Database/MySQLi/Connection.php(314): mysqli->query()
+#1 /var/www/html/solimaq/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/solimaq/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/solimaq/system/Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/solimaq/system/BaseModel.php(583): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/solimaq/app/Models/Product.php(84): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/solimaq/app/Controllers/Products.php(293): App\Models\Product->getProductos()
+#8 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Products->get_productos()
+#9 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}

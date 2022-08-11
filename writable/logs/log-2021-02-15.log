@@ -1,0 +1,243 @@
+CRITICAL - 2021-02-15 13:20:30 --> Class 'App\Models\Crud_goups_model' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 13:25:34 --> Class 'App\Models\Crud_goups_model' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 13:26:28 --> Class 'App\Models\Crud_group_model' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 13:26:42 --> Class 'App\Models\Crud_group_model' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 13:26:44 --> Class 'App\Models\Crud_group_model' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 13:48:49 --> Class 'App\Models\groups_models\Crud_group_model' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 13:49:01 --> Class 'App\Models\groups_models\Crud_group_model' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 13:49:07 --> Class 'App\Models\groups_models\Crud_group_model' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 13:50:04 --> Class 'App\Models\Model' not found
+#0 C:\xampp\htdocs\solimaq\system\Autoloader\Autoloader.php(294): include_once()
+#1 C:\xampp\htdocs\solimaq\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\grou...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\grou...')
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(20): spl_autoload_call('App\\Models\\grou...')
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 13:51:30 --> Class 'App\Models\groups_models\Crud_group_model' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 14:43:19 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:48:37 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:48:42 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:48:58 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:53:17 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:53:18 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:53:23 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:58:57 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 14:59:39 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 15:18:45 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\xampp\htdocs\solimaq\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('examples')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('examples')
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-15 15:19:09 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(22): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 15:20:58 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 15:21:54 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 15:25:35 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\solimaq\app\Views\pages\crud_groups.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-15 15:28:27 --> syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('pages/crud_grou...', Array, true)
+#2 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(27): view('pages/crud_grou...', Array)
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#4 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-15 17:46:32 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 17:57:42 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-15 17:58:16 --> Undefined variable: data_left
+#0 C:\xampp\htdocs\solimaq\app\Controllers\examples.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\examples->index()
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\examples))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

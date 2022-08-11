@@ -1,0 +1,398 @@
+CRITICAL - 2022-08-09 11:22:39 --> Undefined variable: totalTime
+#0 /var/www/html/solimaq/system/Debug/Toolbar/Views/toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/Debug/Toolbar.php(456): include('/var/www/html/s...')
+#2 /var/www/html/solimaq/system/Debug/Toolbar.php(413): CodeIgniter\Debug\Toolbar->format()
+#3 /var/www/html/solimaq/app/Config/Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 /var/www/html/solimaq/system/Events/Events.php(166): call_user_func()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(314): CodeIgniter\Events\Events::trigger()
+#7 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-09 11:27:29 --> Undefined variable: obtener_productos
+#0 /var/www/html/solimaq/app/Views/Proveedores/Proveedores_view.php(331): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/View/View.php(220): include('/var/www/html/s...')
+#2 /var/www/html/solimaq/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/solimaq/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /var/www/html/solimaq/app/Controllers/Proveedores.php(30): view()
+#5 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->index()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-09 11:28:15 --> Undefined variable: get_empresa
+#0 /var/www/html/solimaq/app/Views/Proveedores/Proveedores_view.php(462): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/View/View.php(220): include('/var/www/html/s...')
+#2 /var/www/html/solimaq/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/solimaq/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /var/www/html/solimaq/app/Controllers/Proveedores.php(30): view()
+#5 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->index()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-09 11:28:29 --> Undefined variable: get_provedor
+#0 /var/www/html/solimaq/app/Views/Proveedores/Proveedores_view.php(474): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/View/View.php(220): include('/var/www/html/s...')
+#2 /var/www/html/solimaq/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/solimaq/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /var/www/html/solimaq/app/Controllers/Proveedores.php(30): view()
+#5 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->index()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-09 13:34:11 --> Call to a member function getRandomName() on null
+#0 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->agregar()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 13:34:12 --> Call to a member function getRandomName() on null
+#0 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->agregar()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 13:34:13 --> Call to a member function getRandomName() on null
+#0 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->agregar()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 13:34:15 --> Call to a member function getRandomName() on null
+#0 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->agregar()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-09 13:34:23 --> Call to a member function getRandomName() on null
+#0 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->agregar()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-08-09 14:37:33 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-08-09 14:37:33 --> Unable to connect to the database.
+#0 /var/www/html/solimaq/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/solimaq/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/solimaq/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 /var/www/html/solimaq/app/Helpers/menu_helper.php(46): CodeIgniter\BaseModel->first()
+#5 /var/www/html/solimaq/app/Controllers/BaseController.php(50): getPermision()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(909): App\Controllers\BaseController->initController()
+#7 /var/www/html/solimaq/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#8 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-09 15:49:25 --> Undefined variable: styles
+#0 /var/www/html/solimaq/app/Views/header.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/View/View.php(220): include('/var/www/html/s...')
+#2 /var/www/html/solimaq/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/solimaq/system/Common.php(1217): CodeIgniter\View\View->render()
+#4 /var/www/html/solimaq/app/Controllers/Proveedores.php(20): view()
+#5 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->index()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-09 15:50:12 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/html/solimaq/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 18:25:33 --> Undefined variable: path
+#0 /var/www/html/solimaq/app/Controllers/Proveedores.php(292): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 18:25:33 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:25:34 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:25:34 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:25:35 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:25:36 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:25:36 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:25:37 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:25:37 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:25:38 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:25:38 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:26:11 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:26:11 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:26:12 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:30:07 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:30:08 --> unlink(../public/images/logos/1660000440_010365e3fdabcc7b7590.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:31:07 --> Undefined variable: path
+#0 /var/www/html/solimaq/app/Controllers/Proveedores.php(292): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-09 18:31:08 --> unlink(../public/images/logos/1660067619_e4fe73ada96122921b1b.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(290): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:32:26 --> unlink(../public/images/logos/1660067619_e4fe73ada96122921b1b.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:32:27 --> unlink(../public/images/logos/1660067619_e4fe73ada96122921b1b.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:32:48 --> unlink(../public/images/logos/1660067777_55708b2be30962e94e14.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:32:48 --> unlink(../public/images/logos/1660067777_55708b2be30962e94e14.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:32:49 --> unlink(../public/images/logos/1660067777_55708b2be30962e94e14.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:32:49 --> unlink(../public/images/logos/1660067777_55708b2be30962e94e14.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:33:40 --> unlink(../public/images/logos/1660067897_87adad4473edcd1f3bea.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:34:49 --> unlink(../public/images/logos/1660070640_82ed26c049fbdc60195f.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:35:10 --> unlink(../public/images/logos/1660078616_ba36328f0279e0150030.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:35:10 --> unlink(../public/images/logos/1660078616_ba36328f0279e0150030.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:35:11 --> unlink(../public/images/logos/1660078616_ba36328f0279e0150030.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:36:20 --> unlink(../public/images/logos/1660088089_b588ff3dbae78a977386.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:36:46 --> unlink(../public/images/logos/1660088179_29c7f94d1c1ae2b231d3.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:36:47 --> unlink(../public/images/logos/1660088179_29c7f94d1c1ae2b231d3.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:36:47 --> unlink(../public/images/logos/1660088179_29c7f94d1c1ae2b231d3.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:36:48 --> unlink(../public/images/logos/1660088179_29c7f94d1c1ae2b231d3.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:38:17 --> unlink(../public/images/logos/1660088204_a9c0ec98a4062f003139.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:38:17 --> unlink(../public/images/logos/1660088204_a9c0ec98a4062f003139.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-09 18:38:18 --> unlink(../public/images/logos/1660088204_a9c0ec98a4062f003139.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/solimaq/app/Controllers/Proveedores.php(291): unlink()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Proveedores->Adatos()
+#3 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}

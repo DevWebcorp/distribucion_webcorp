@@ -1,0 +1,396 @@
+CRITICAL - 2021-02-03 18:03:48 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\solimaq\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\solimaq\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-02-03 18:03:59 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\solimaq\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\solimaq\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-02-03 18:04:20 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\solimaq\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\solimaq\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-02-03 18:06:32 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\solimaq\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\solimaq\public\index.php(35): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-02-03 15:26:52 --> Cannot declare class App\Controllers\Register because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 15:26:55 --> Cannot declare class App\Controllers\Register because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 15:28:50 --> Cannot declare class App\Controllers\Register because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 15:28:56 --> Cannot declare class App\Controllers\Register because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-03 15:29:11 --> Call to undefined method App\Controllers\Register::get_groups()
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 15:29:56 --> Class 'App\Models\Model_Register\Model_Register' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 15:30:10 --> Class 'App\Models\Model_Register\Model_Register' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 15:30:13 --> Class 'App\Models\Model_Register\Model_Register' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 15:30:36 --> Class 'App\Models\Model_Register\Model_register' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 15:32:40 --> Class 'App\Models\Models_Register\Model_register' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 15:35:43 --> Class 'App\Models\Models_Register\Model_register' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 15:35:45 --> Class 'App\Models\Models_Register\Model_register' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 15:36:56 --> Class 'App\Models\Models_Register\Model_register' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-03 15:39:46 --> Undefined variable: data_register
+#0 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 15:40:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(18): App\Models\Model_register->get_groups()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 16:42:27 --> Undefined variable: baseURL
+#0 C:\xampp\htdocs\solimaq\app\Views\Login_view\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('Login_view/Logi...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(24): view('Login_view/Logi...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-03 16:42:40 --> Undefined variable: baseURL
+#0 C:\xampp\htdocs\solimaq\app\Views\Login_view\Login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('Login_view/Logi...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(24): view('Login_view/Logi...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-03 21:13:20 --> mysqli_sql_exception: Unknown column 'username' in 'field list' in C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `gr...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gr...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gr...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gr...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(43): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 21:13:20 --> Unknown column 'username' in 'field list'
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `gr...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gr...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gr...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gr...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(43): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-03 21:14:23 --> mysqli_sql_exception: Unknown column 'user_name' in 'field list' in C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `gr...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gr...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gr...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gr...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(43): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 21:14:23 --> Unknown column 'user_name' in 'field list'
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `gr...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gr...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gr...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gr...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(43): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-03 21:24:43 --> mysqli_sql_exception: Unknown column 'password' in 'field list' in C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `gr...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gr...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gr...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gr...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(43): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 21:24:43 --> Unknown column 'password' in 'field list'
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `gr...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `gr...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `gr...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gr...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(43): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-03 21:26:05 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(43): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 21:26:05 --> Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(43): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-03 22:12:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(50): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 22:12:12 --> Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(50): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-03 22:13:14 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(51): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 22:13:14 --> Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(51): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-03 22:15:31 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION) in C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(51): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 22:15:31 --> Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(51): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-03 22:17:26 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(51): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 22:17:26 --> Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(51): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-03 22:18:21 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION) in C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(51): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 22:18:21 --> Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(51): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-02-03 22:18:55 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION) in C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(51): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 22:18:55 --> Cannot add or update a child row: a foreign key constraint fails (`solimaq`.`users`, CONSTRAINT `user-group` FOREIGN KEY (`id_group`) REFERENCES `groups` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\solimaq\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\solimaq\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\solimaq\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\solimaq\app\Models\Model_register.php(15): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(51): App\Models\Model_register->insert_user(Array)
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#8 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-02-03 22:21:08 --> Undefined variable: styles
+#0 C:\xampp\htdocs\solimaq\app\Views\header.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('header', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(56): view('header', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-03 22:31:18 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\solimaq\system\HTTP\RedirectResponse.php(63): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\solimaq\system\Common.php(918): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(53): redirect('/register')
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->insert_user()
+#4 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -10,7 +10,7 @@ switch (STAGE) {
         BASE_URL = '';
         break;
     case "DEV":
-        BASE_URL = 'http://localhost/solimaq/public/index.php/';
+        BASE_URL = 'http://localhost/distribucion_webcorp/public/index.php/';
         break;
     default:
         break;

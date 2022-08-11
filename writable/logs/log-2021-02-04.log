@@ -1,0 +1,112 @@
+CRITICAL - 2021-02-04 13:30:58 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\xampp\htdocs\solimaq\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Login/verify_lo...')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Login/verify_lo...')
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:31:35 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\xampp\htdocs\solimaq\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Login/verify_lo...')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Login/verify_lo...')
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:31:41 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\xampp\htdocs\solimaq\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Login/verify_lo...')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Login/verify_lo...')
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:32:22 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\xampp\htdocs\solimaq\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Login/verify_lo...')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Login/verify_lo...')
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:33:22 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\xampp\htdocs\solimaq\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Login/verify_lo...')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Login/verify_lo...')
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:33:40 --> Undefined index: password
+#0 C:\xampp\htdocs\solimaq\app\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Login->verify_login()
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:34:25 --> Undefined index: password
+#0 C:\xampp\htdocs\solimaq\app\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Login->verify_login()
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:35:02 --> Undefined index: password
+#0 C:\xampp\htdocs\solimaq\app\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Login->verify_login()
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:35:41 --> Undefined index: password
+#0 C:\xampp\htdocs\solimaq\app\Controllers\Login.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Login->verify_login()
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:37:32 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\xampp\htdocs\solimaq\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Login/verify_lo...')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Login/verify_lo...')
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:39:05 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\xampp\htdocs\solimaq\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('Login/verify_lo...')
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('Login/verify_lo...')
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-04 13:44:22 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\solimaq\app\Controllers\Login.php(13): count(true)
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Login->verify_login()
+#3 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-04 17:09:31 --> Class 'App\Controllers\Model_register' not found
+#0 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#1 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-04 17:10:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\solimaq\system\Model.php(615): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\solimaq\system\Model.php(153): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\solimaq\system\BaseModel.php(518): CodeIgniter\Model->doFind(true, 2)
+#3 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(17): CodeIgniter\BaseModel->find(2)
+#4 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-04 18:46:10 --> Undefined variable: groups
+#0 C:\xampp\htdocs\solimaq\app\Views\Login_view\Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\solimaq\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\solimaq\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\solimaq\system\Common.php(1217): CodeIgniter\View\View->render('Login_view/Logi...', Array, true)
+#4 C:\xampp\htdocs\solimaq\app\Controllers\Register.php(23): view('Login_view/Logi...', Array)
+#5 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(936): App\Controllers\Register->index()
+#6 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\solimaq\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\solimaq\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

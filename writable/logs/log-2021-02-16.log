@@ -1,0 +1,222 @@
+ERROR - 2021-02-16 15:09:30 --> mysqli_sql_exception: Unknown column 'users.deleted_at' in 'where clause' in /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Library/WebServer/Documents/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Library/WebServer/Documents/solimaq/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/solimaq/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(28): CodeIgniter\BaseModel->first()
+#7 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#8 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#9 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-16 15:09:30 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Library/WebServer/Documents/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Library/WebServer/Documents/solimaq/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/solimaq/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(28): CodeIgniter\BaseModel->first()
+#7 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#8 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#9 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-02-16 15:28:08 --> mysqli_sql_exception: Unknown column 'id_groupp' in 'field list' in /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `id_grou...')
+#1 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_grou...')
+#2 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_grou...')
+#3 /Library/WebServer/Documents/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_grou...', Array, false)
+#4 /Library/WebServer/Documents/solimaq/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/solimaq/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(27): CodeIgniter\BaseModel->first()
+#7 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#8 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#9 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-16 15:28:08 --> Unknown column 'id_groupp' in 'field list'
+#0 /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT `id_grou...')
+#1 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_grou...')
+#2 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_grou...')
+#3 /Library/WebServer/Documents/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `id_grou...', Array, false)
+#4 /Library/WebServer/Documents/solimaq/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /Library/WebServer/Documents/solimaq/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(27): CodeIgniter\BaseModel->first()
+#7 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#8 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#9 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-02-16 15:34:44 --> Undefined offset: 0
+#0 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 30, Array)
+#1 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 15:35:26 --> Undefined offset: 0
+#0 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 30, Array)
+#1 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 15:36:03 --> Undefined offset: 0
+#0 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/Library/WebSer...', 31, Array)
+#1 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 15:46:54 --> Undefined variable: db
+#0 /Library/WebServer/Documents/solimaq/app/Models/session/access.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Library/WebSer...', 24, Array)
+#1 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): App\Models\Access->getPermisions('2')
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#4 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-16 15:50:12 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 /Library/WebServer/Documents/solimaq/app/Models/session/access.php(25): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/Library/WebSer...', 25, Array)
+#1 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): App\Models\Access->getPermisions('2')
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#4 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-02-16 16:08:53 --> mysqli_sql_exception: Unknown column '$id_group' in 'where clause' in /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM `...')
+#1 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Library/WebServer/Documents/solimaq/app/Models/session/access.php(25): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): App\Models\Access->getPermisions('2')
+#4 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#6 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-16 16:08:53 --> Unknown column '$id_group' in 'where clause'
+#0 /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM `...')
+#1 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Library/WebServer/Documents/solimaq/app/Models/session/access.php(25): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): App\Models\Access->getPermisions('2')
+#4 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#6 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-16 16:09:56 --> Call to undefined method mysqli_result::getResult()
+#0 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): App\Models\Access->getPermisions('2')
+#1 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 16:10:10 --> Call to undefined method mysqli_result::result()
+#0 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): App\Models\Access->getPermisions('2')
+#1 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 16:10:47 --> Call to undefined method mysqli_result::getResult()
+#0 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): App\Models\Access->getPermisions('2')
+#1 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 16:11:31 --> Call to undefined method mysqli_result::getResult()
+#0 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): App\Models\Access->getPermisions('2')
+#1 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-02-16 16:15:28 --> mysqli_sql_exception: Unknown column 'acces.id_module' in 'where clause' in /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM `...')
+#1 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Library/WebServer/Documents/solimaq/app/Models/session/access.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): App\Models\Access->getPermisions('2')
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#6 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#7 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-16 16:15:28 --> Unknown column 'acces.id_module' in 'where clause'
+#0 /Library/WebServer/Documents/solimaq/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT * FROM `...')
+#1 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 /Library/WebServer/Documents/solimaq/app/Models/session/access.php(25): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(30): App\Models\Access->getPermisions('2')
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#6 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#7 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-16 16:23:01 --> Trying to get property 'id' of non-object
+#0 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 32, Array)
+#1 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-02-16 16:23:50 --> Error connecting to the database: Operation timed out
+CRITICAL - 2021-02-16 16:23:50 --> Unable to connect to the database.
+#0 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Library/WebServer/Documents/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Library/WebServer/Documents/solimaq/system/Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#3 /Library/WebServer/Documents/solimaq/system/BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#4 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(28): CodeIgniter\BaseModel->find()
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#6 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#7 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-16 16:31:21 --> Trying to get property 'id' of non-object
+#0 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/Library/WebSer...', 32, Array)
+#1 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#2 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-16 17:02:18 --> Cannot use object of type stdClass as array
+#0 /Library/WebServer/Documents/solimaq/system/View/View.php(220): include()
+#1 /Library/WebServer/Documents/solimaq/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Library/WebServer/Documents/solimaq/system/Common.php(1217): CodeIgniter\View\View->render('left_panel', Array, true)
+#3 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(41): view('left_panel', Array)
+#4 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#6 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-16 17:33:34 --> Undefined index: subModules
+#0 /Library/WebServer/Documents/solimaq/app/Views/left_panel.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Library/WebSer...', 25, Array)
+#1 /Library/WebServer/Documents/solimaq/system/View/View.php(220): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/solimaq/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Library/WebServer/Documents/solimaq/system/Common.php(1217): CodeIgniter\View\View->render('left_panel', Array, true)
+#4 /Library/WebServer/Documents/solimaq/app/Controllers/Payments.php(25): view('left_panel', Array)
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\Payments->index()
+#6 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#7 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-02-16 18:40:43 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2021-02-16 18:40:43 --> Unable to connect to the database.
+#0 /Library/WebServer/Documents/solimaq/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Library/WebServer/Documents/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Library/WebServer/Documents/solimaq/system/Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#3 /Library/WebServer/Documents/solimaq/system/BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#4 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(28): CodeIgniter\BaseModel->find()
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#6 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#7 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

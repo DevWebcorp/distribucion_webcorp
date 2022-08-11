@@ -1,0 +1,83 @@
+CRITICAL - 2022-08-02 12:08:41 --> Call to a member function getRandomName() on null
+#0 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Empresas->editarDatos()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-02 12:10:16 --> Call to a member function getRandomName() on null
+#0 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Empresas->editarDatos()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-02 12:11:27 --> Call to a member function getRandomName() on null
+#0 /var/www/html/solimaq/system/CodeIgniter.php(936): App\Controllers\Empresas->editarDatos()
+#1 /var/www/html/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-08-02 16:12:21 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-08-02 16:12:21 --> Unable to connect to the database.
+#0 /var/www/html/solimaq/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/solimaq/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/solimaq/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 /var/www/html/solimaq/app/Helpers/menu_helper.php(46): CodeIgniter\BaseModel->first()
+#5 /var/www/html/solimaq/app/Controllers/BaseController.php(50): getPermision()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(909): App\Controllers\BaseController->initController()
+#7 /var/www/html/solimaq/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#8 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-02 16:12:30 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-08-02 16:12:30 --> Unable to connect to the database.
+#0 /var/www/html/solimaq/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/solimaq/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/solimaq/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 /var/www/html/solimaq/app/Helpers/menu_helper.php(46): CodeIgniter\BaseModel->first()
+#5 /var/www/html/solimaq/app/Controllers/BaseController.php(50): getPermision()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(909): App\Controllers\BaseController->initController()
+#7 /var/www/html/solimaq/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#8 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-02 16:12:44 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-08-02 16:12:44 --> Unable to connect to the database.
+#0 /var/www/html/solimaq/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/solimaq/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/solimaq/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 /var/www/html/solimaq/app/Helpers/menu_helper.php(46): CodeIgniter\BaseModel->first()
+#5 /var/www/html/solimaq/app/Controllers/BaseController.php(50): getPermision()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(909): App\Controllers\BaseController->initController()
+#7 /var/www/html/solimaq/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#8 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-02 16:13:00 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-08-02 16:13:00 --> Unable to connect to the database.
+#0 /var/www/html/solimaq/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/solimaq/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/solimaq/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 /var/www/html/solimaq/app/Helpers/menu_helper.php(46): CodeIgniter\BaseModel->first()
+#5 /var/www/html/solimaq/app/Controllers/BaseController.php(50): getPermision()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(909): App\Controllers\BaseController->initController()
+#7 /var/www/html/solimaq/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#8 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-02 16:13:23 --> Error connecting to the database: Connection timed out
+CRITICAL - 2022-08-02 16:13:23 --> Unable to connect to the database.
+#0 /var/www/html/solimaq/system/Database/BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/solimaq/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/solimaq/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/solimaq/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 /var/www/html/solimaq/app/Helpers/menu_helper.php(46): CodeIgniter\BaseModel->first()
+#5 /var/www/html/solimaq/app/Controllers/BaseController.php(50): getPermision()
+#6 /var/www/html/solimaq/system/CodeIgniter.php(909): App\Controllers\BaseController->initController()
+#7 /var/www/html/solimaq/system/CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#8 /var/www/html/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}

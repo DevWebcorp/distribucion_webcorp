@@ -1,0 +1,18 @@
+CRITICAL - 2021-02-08 10:30:02 --> Invalid file: groups_view.php
+#0 /Library/WebServer/Documents/solimaq/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('groups_view.php')
+#1 /Library/WebServer/Documents/solimaq/system/Common.php(1217): CodeIgniter\View\View->render('groups_view', Array, true)
+#2 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(35): view('groups_view')
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#4 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-08 10:30:31 --> Invalid file: groups/groups_view.php
+#0 /Library/WebServer/Documents/solimaq/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('groups/groups_v...')
+#1 /Library/WebServer/Documents/solimaq/system/Common.php(1217): CodeIgniter\View\View->render('groups/groups_v...', Array, true)
+#2 /Library/WebServer/Documents/solimaq/app/Controllers/Inicio.php(35): view('groups/groups_v...')
+#3 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(936): App\Controllers\inicio->index()
+#4 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\inicio))
+#5 /Library/WebServer/Documents/solimaq/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Library/WebServer/Documents/solimaq/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
